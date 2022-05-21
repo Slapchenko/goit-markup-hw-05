@@ -16,6 +16,7 @@
   --header-border-cl: #ececec;
   --gallery-item-border-cl: #eeeeee;
   --main-icon-cl: #afb1b8;
+  --header-border-cl-currenn: #000000;
 }
 
 body {
@@ -134,7 +135,20 @@ img {
 }
 
 .nav-link {
+  position: relative;
   color: var(--secondary-txt-cl);
+}
+
+.nav-link-current::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-cl);
+  border-radius: 2px;
 }
 
 .сontacts-link {
