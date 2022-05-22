@@ -18,6 +18,7 @@
   --main-icon-cl: #afb1b8;
   --header-border-cl-currenn: #000000;
   --backdrop: rgba(0, 0, 0, 0.2);
+  --modal-btn-bg: rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -282,7 +283,13 @@ img {
   top: 8px;
   right: 8px;
 
-  display: block;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+
+  background: var(--main-bg-cl);
+  border: 1px solid var(--modal-btn-bg);
   border-radius: 50%;
 }
 
