@@ -739,7 +739,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery-link:hover .gallery-description {
+.gallery-link:hover .gallery-description,
+.gallery-link:focus .gallery-description {
   transform: translateY(0);
 }
 
