@@ -701,8 +701,6 @@ img {
 .gallery-link {
   width: 370px;
 
-  border: 1px solid var(--gallery-item-border-cl);
-
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -763,4 +761,7 @@ img {
 
 .gallery-group {
   padding: 20px 24px;
+  border-right: 1px solid var(--gallery-item-border-cl);
+  border-bottom: 1px solid var(--gallery-item-border-cl);
+  border-left: 1px solid var(--gallery-item-border-cl);
 }
